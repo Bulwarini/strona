@@ -1,34 +1,56 @@
-body {
+head, body, img, a, li, ul{
   margin: 0;
   padding: 0;
-}  
-.belt {
-  width: 100%;
-  background-image: url(ass/gleba.jpg);
-  height: 405px;
-  margin: 0;
-  background-position: center;
 }
-.pasek {
-  text-align: center;
+header {
+  position:relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: rgb(20, 4, 4);
+}
+ul {
+  float: none;
+  position: relative;
+  left: 0;
+  list-style-type: none;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(20, 4, 4);
 }
 li {
   float: left;
-  display: inline;
-}
-a {
+  text-align: center;
+  padding: 0;
+  margin: 0;
   display: block;
-  padding: 8px;
-  background-color: #494949;
 }
-a.highlight:hover {
-   color: #ff0000;
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: middle;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgb(192, 1, 1);
 }
 .active {
   background-color: #04AA6D;
 }
-#link {
-  color:white;
-  text-decoration: none;
-      
+.banner {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.pic {
+  display: block;
+  height: fit-content;
+  width: fit-content;
 }
